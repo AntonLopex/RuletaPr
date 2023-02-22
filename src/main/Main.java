@@ -10,9 +10,9 @@ public class Main {
         
         System.out.println("RULETA DA SORTE");
 
-        /*Jugadores.jugadores();
+        Jugadores.jugadores();
 
-        Enigmas.frases();*/
+        Enigmas.frases();
         
         Menu.menu(0);
         

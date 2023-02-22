@@ -33,8 +33,12 @@ public class Ruleta {
                 dinero= dinero + 999;
                 System.out.println("Tu saldo actual es de: "+dinero);
             }
-            case 23 ->
+            case 23 ->{
                 System.out.println("¡¡¡QUIEBRAA!!!");
+                dinero=0;
+                 
+                System.out.println("Pasas a tener 0€");
+            }
             case 24 ->
                 System.out.println("¡¡¡PIERDES EL TURNO!!!");
             case 25 ->

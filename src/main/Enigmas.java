@@ -14,20 +14,20 @@ public class Enigmas {
         ArrayList<String> enigmas = new ArrayList<>();
         
         enigmas.add("La ciudad del amor");
-        enigmas.add("El lugar del nunca jamás");
+        enigmas.add("El lugar del nunca jamas");
         enigmas.add("El hogar de los libros");
         enigmas.add("El rey de los cielos");
         enigmas.add("La ciudad del jazz");
         enigmas.add("El oro del Amazonas");
-        enigmas.add("La cuna de la civilización");
+        enigmas.add("La cuna de la civilizacion");
         enigmas.add("La ciudad de los rascacielos");
         
        
         
         ArrayList<String> pistas = new ArrayList<>();
         
-        pistas.add("Una ciudad famosa por su historia romántica");
-        pistas.add("Un lugar imaginario o mítico");
+        pistas.add("Una ciudad famosa por su historia romantica");
+        pistas.add("Un lugar imaginario o mitico");
         pistas.add("Un lugar conocido por su rica historia literaria");
         pistas.add("Un animal conocido por su majestuosidad");
         pistas.add("Una ciudad con una gran escena de jazz");
@@ -38,11 +38,19 @@ public class Enigmas {
 
         
         System.out.println("La pista es: "+ pistas.get(selPista));
+        
+        String frase = enigmas.get(selPista);
+        
+        String panel = frase.replaceAll("[a-zA-Z]", " _ ");
+        
+        System.out.println(panel);
+        
+        
+
     }
     
+}
 
-
-  }
 
 
         

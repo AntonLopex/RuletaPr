@@ -25,14 +25,14 @@ public class Jugadores {
     }
     private int dinero=0;
     
-    public static int  getDinero(int dinero){
+    public  int  getDinero(int dinero){
         
         return dinero;
         
     }
-    public static void setDinero(int dinero){
+    public void setDinero(int dinero){
         
-        dinero  = dinero;
+       this.dinero  = dinero;
         
     }
    

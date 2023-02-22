@@ -39,6 +39,8 @@ public class Menu {
                     System.out.println("5.U");
                     int sel = teclado.nextInt();
                     
+                    System.out.println("Escoges la letra " + sel);
+                    
                 }else{
                     System.err.println("No tienes suficiente dinero, sigue ahorrando");
                 }
